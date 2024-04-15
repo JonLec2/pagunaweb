@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #219ebc;
+}
+
+p{
+    text-align: justify
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+background-color: #f3f4f5;
+padding: 20px;
+border-radius: 20px;
+}
+
+section h2 {
+    color: #03045e;
+    
+    padding-bottom: 10px;
+}
+
+/* Añadir estilos para el menú activo */
+nav ul li a.active {
+    color: #ff9900; /* Cambiar color del enlace activo */
+    border-bottom: 2px solid #ff9900; /* Cambiar color del borde inferior del enlace activo */
+}
+
+/* Estilos previamente definidos */
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #333;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-preview img {
+    border-radius: 10px; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
+    width: 85%;
+    
+}
+
+.image-code img {
+    border-radius: 10px; /* Ajusta según sea necesario */
+    
+    width: 90%;
+    
+}
+
